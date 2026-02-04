@@ -1,0 +1,15 @@
+digraph tree_final {
+null10 [shape=point];
+b -> null10;
+b -> c;
+c -> bb;
+null11 [shape=point];
+c -> null11;
+bb -> ba;
+null12 [shape=point];
+bb -> null12;
+null13 [shape=point];
+ba -> null13;
+null14 [shape=point];
+ba -> null14;
+}

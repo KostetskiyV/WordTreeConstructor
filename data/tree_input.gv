@@ -1,0 +1,27 @@
+digraph tree_input {
+aa -> a;
+aa -> b;
+null1 [shape=point];
+a -> null1;
+null2 [shape=point];
+a -> null2;
+b -> ab;
+b -> c;
+null3 [shape=point];
+ab -> null3;
+ab -> abccba;
+null4 [shape=point];
+abccba -> null4;
+null5 [shape=point];
+abccba -> null5;
+c -> bb;
+null6 [shape=point];
+c -> null6;
+bb -> ba;
+null7 [shape=point];
+bb -> null7;
+null8 [shape=point];
+ba -> null8;
+null9 [shape=point];
+ba -> null9;
+}
